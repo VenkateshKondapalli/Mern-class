@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form2</title>
+</head>
+<body>
+    <h2>please provide more information</h2>
+    <form>
+        <div>
+            <label> Gender</label>
+            <br>
+            <input type="radio" name="gender" value="male" id="i-g-m"><label for="i-g-m">Male</label><br>
+            <input type="radio" name="gender" value="female" id="i-g-f"><label for="i-g-f">Female</label><br><br>
+
+        </div>
+        <div>
+            <label> Documents:</label>
+            <br>
+            <input type="checkbox" name="documents-submitted" value="passport" id="pst" checked disabled><label for="pst">Passport</label><br>
+            <input type="checkbox" name="documents-submitted" value="driving licence" id="d-i"><label for="d-i">Driving License</label><br>
+            <input type="checkbox" name="documents-submitted" value="resident proof" id="r-p"><label for="r-p">Resident Proof</label><br><br>
+        </div>
+        <textarea rows="10" cols="30" name="discription">This form is more inmportant for Registion</textarea>
+        <div>
+            <label>Score:</label>
+            <br>
+            <input type="range" name="score-yourself" min="1" max="10" value="2">
+            <br><br>
+
+        </div>
+        <div>
+            <label> Documents:</label>
+            <br>
+            <select name="documents-selected">
+                <option value="passport">Passport</option>
+                <option value="driving licence" selected>Driving License</option>
+                <option value="resident proof">checkbox</option>
+            </select>
+        </div>
+        <button>Register</button>
+        <!--<input type="submit" value="Register"> we can write the submit button in this way also but the better way is using button instead of input.In Button the submit is by default.-->
+    </form>
+</body>
+</html>
