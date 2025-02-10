@@ -1,0 +1,29 @@
+/*h2{
+    color: blue;
+    background-color: antiquewhite;
+}
+small{
+    color: red;
+}
+p{
+    background-color:cadetblue;
+}
+#lol{
+    color: deeppink;
+    background-color: bisque;
+}
+*/
+.text1{
+    color:aliceblue;
+    background-color:chocolate;
+}
+h3.text1{
+    color:red;
+    background-color: aquamarine;
+}
+.backred{
+    background-color: red;
+}
+.bigtext{
+    font-size: 32px;
+}
